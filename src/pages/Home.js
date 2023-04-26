@@ -19,7 +19,7 @@ const Home = () => {
     }
 
     return (
-        <main className='font-normal w-full h-[100vh] bg-slate-900 gap-y-8 flex flex-col items-center justify-center text-white'>
+        <main className='font-normal w-full h-[100vh] bg-slate-900 gap-y-8 flex flex-col items-center justify-center text-lg text-white'>
             <h1 className='mt-5 font-light uppercase text-center text-2xl'>Word and Character Counter</h1>
             <span className='w-[65px] h-[1.5px] rounded-full bg-white'></span>
             <textarea rows={15} cols={1} value={input} onChange={(e) => setInput(e.target.value)}
